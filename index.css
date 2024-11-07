@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "cabin", sans-serif;
+    
+    
 }
 body{
-    background-color: blue;
+    background-color:rgb(165, 226, 44);
     height: 100vh;
-    display: flex;
+    
+display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 form{
-    background-color: #FFFFFF;
-    padding: 16px;
-    border-radius: 10px;
+    background-color: #798252;
+    padding: 2rem ;
+    border-radius: 20px;
+}
+h1{
+    padding: 1rem;
+    
 }
 form label{
     display: block;
@@ -29,7 +40,28 @@ form input, form select, form textarea{
   margin-bottom: 16px;
   border-radius: 5px;
   padding-left: 10px;
+  background-color: #ccd595;
+}
+select{
+    cursor: pointer ;
+    background-color:#ccd595 ;
+    color: #331f19;
+    
 }
 form textarea{
     height: 100px;
+}
+button{
+    background-color: #ccd595;
+    border: none;
+    padding: 1rem;
+    color: #331f19;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    
+    
+
+
 }
